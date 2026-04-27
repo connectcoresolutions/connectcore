@@ -9,8 +9,8 @@ const Footer = () => (
     <div className="bg-primary text-primary-foreground">
       <div className="container py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
-          <h3 className="text-2xl font-heading font-extrabold">Need Help With Internet or Cable?</h3>
-          <p className="text-primary-foreground/80 mt-1">Our independent support team is ready to assist you.</p>
+          <h3 className="text-2xl font-heading font-extrabold">Have a Connectivity Question?</h3>
+          <p className="text-primary-foreground/80 mt-1">Our independent advisors are standing by to help you find clarity.</p>
         </div>
         <div className="flex gap-3">
           <Button variant="secondary" size="lg" asChild>
@@ -28,7 +28,7 @@ const Footer = () => (
         <div className="space-y-4">
           <Logo variant="light" size="md" />
           <p className="text-sm opacity-70">
-            Independent third-party service assistance provider. Launched in 2026.
+            Independent connectivity advisory service. Established 2026.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const Footer = () => (
 
       <div className="border-t border-background/10 mt-10 pt-6">
         <p className="text-xs opacity-50 text-center max-w-4xl mx-auto">
-          📢 CONNECTCORE SOLUTIONS is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, broadband, or cable TV service provider. All trademarks belong to their respective owners. Service fees apply separately for assistance provided.
+          ConnectCore Solutions is an independent advisory service. We are not affiliated with, authorised by, or endorsed by any internet, broadband, or cable TV service provider. All trademarks belong to their respective owners. Advisory fees apply separately for services provided.
         </p>
         <p className="text-xs opacity-40 text-center mt-3">
           © {new Date().getFullYear()} CONNECTCORE SOLUTIONS. All rights reserved.

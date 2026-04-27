@@ -18,10 +18,10 @@ const ImageCarousel = () => (
   <section className="py-12 lg:py-16 overflow-hidden bg-muted">
     <div className="text-center mb-8">
       <h2 className="text-3xl lg:text-4xl font-extrabold mb-3">
-        Helping You Stay <span className="text-primary">Connected</span>
+        Guidance You Can <span className="text-primary">Rely On</span>
       </h2>
       <p className="text-muted-foreground max-w-xl mx-auto">
-        Independent guidance for all your connectivity needs.
+        From routers to remotes, we keep you informed and in control of your home connectivity.
       </p>
     </div>
     <div className="relative">

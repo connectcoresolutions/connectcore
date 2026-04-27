@@ -1,19 +1,19 @@
 import { CheckCircle, XCircle } from "lucide-react";
 
 const doItems = [
-  "Provide guidance on internet, cable, and streaming questions",
-  "Assist with understanding services and options available",
-  "Help navigate common issues with independent advice",
-  "Offer informational support for decision-making",
+  "Offer clear, honest guidance on internet, cable, and streaming topics",
+  "Help clients compare and evaluate available connectivity options",
+  "Walk through general troubleshooting approaches with unbiased advice",
+  "Support informed decision-making through educational consultations",
 ];
 
 const dontItems = [
-  "We are not an Internet Service Provider (ISP)",
-  "We do not provide official customer support for any brand",
-  "We are not affiliated, authorized, or endorsed by any telecom or cable company",
-  "We do not sell internet, cable, or streaming subscriptions",
-  "We do not provide guaranteed technical fixes or outcome assurances",
-  "All mentions of providers, if any, are strictly for informational purposes only",
+  "We are not an Internet Service Provider (ISP) or cable operator",
+  "We do not represent or speak on behalf of any service provider brand",
+  "We carry no affiliation, authorisation, or endorsement from any telecom company",
+  "We do not sell, bundle, or resell internet, cable, or streaming subscriptions",
+  "We cannot guarantee specific technical outcomes or service resolutions",
+  "Provider names, where referenced, are for contextual information only",
 ];
 
 const WhatWeDoSection = () => (
@@ -21,7 +21,7 @@ const WhatWeDoSection = () => (
     <div className="container">
       <div className="text-center mb-12">
         <h2 className="text-3xl lg:text-4xl font-extrabold mb-4">
-          Transparency Is Our <span className="text-primary">Priority</span>
+          Clarity & Honesty Are Our <span className="text-primary">Foundation</span>
         </h2>
       </div>
       <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">

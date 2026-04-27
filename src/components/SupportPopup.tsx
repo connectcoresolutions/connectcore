@@ -28,19 +28,19 @@ const SupportPopup = () => {
             <Phone className="h-8 w-8 text-primary" />
           </div>
           <h3 className="text-2xl font-heading font-extrabold">
-            Internet or Cable <span className="text-primary">Not Working?</span>
+            Confused About Your <span className="text-primary">Connection?</span>
           </h3>
           <p className="text-muted-foreground">
-            Get instant help for slow internet, outages, setup issues, or cable problems.
+            Our independent advisors can walk you through internet, Wi-Fi, and cable questions in plain language.
           </p>
           <Button size="lg" className="w-full text-base font-bold" asChild>
             <a href="tel:+18668678680">
               <Phone className="mr-2 h-5 w-5" />
-              CALL NOW (866) 867-8680
+              SPEAK WITH AN ADVISOR (866) 867-8680
             </a>
           </Button>
           <p className="text-xs text-muted-foreground">
-            Quick assistance • No forms • Talk to a real agent
+            No scripts • No pressure • Real independent guidance
           </p>
         </div>
       </div>

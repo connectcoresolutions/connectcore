@@ -1,12 +1,12 @@
 import { Wifi, Monitor, Smartphone, Play, Globe, FileText } from "lucide-react";
 
 const services = [
-  { icon: Globe, title: "Internet Setup Guidance", desc: "General assistance understanding internet setup processes and options." },
-  { icon: Wifi, title: "Wi-Fi Troubleshooting", desc: "Guidance on common Wi-Fi issues like slow speeds and connectivity drops." },
-  { icon: Smartphone, title: "Device Connection Help", desc: "Help navigating device connection questions for smart TVs, phones, and more." },
-  { icon: Play, title: "Streaming Setup Assistance", desc: "Informational support for setting up streaming devices and applications." },
-  { icon: Monitor, title: "General Connectivity Help", desc: "Broad guidance on networking, wiring, and connectivity-related concerns." },
-  { icon: FileText, title: "Billing Guidance", desc: "Informational help understanding billing questions (we do not process payments for providers)." },
+  { icon: Globe, title: "Broadband Advisory", desc: "Expert guidance to help you compare, understand, and evaluate broadband options that suit your household's needs." },
+  { icon: Wifi, title: "Wi-Fi Performance Help", desc: "Practical advice on improving Wi-Fi coverage, diagnosing interference, and optimising your home network layout." },
+  { icon: Smartphone, title: "Multi-Device Connectivity", desc: "Advisory support for connecting smart TVs, mobile phones, tablets, and IoT devices to your home network." },
+  { icon: Play, title: "Streaming Platform Guidance", desc: "Clear, unbiased explanations of popular streaming platforms, device requirements, and account management basics." },
+  { icon: Monitor, title: "Home Network Consulting", desc: "Comprehensive advisory on routers, mesh systems, Ethernet wiring, and overall home network architecture." },
+  { icon: FileText, title: "Bill & Plan Clarification", desc: "We decode provider invoices and plan structures so you fully understand what you're paying for — we do not access or modify any accounts." },
 ];
 
 const ServicesGrid = () => (
@@ -14,10 +14,10 @@ const ServicesGrid = () => (
     <div className="container">
       <div className="text-center mb-12">
         <h2 className="text-3xl lg:text-4xl font-extrabold mb-4">
-          Services We Offer Our <span className="text-primary">Customers</span>
+          Advisory Solutions We <span className="text-primary">Provide</span>
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          All services are informational and assistance-based. We do not provide, sell, or install any internet, cable, or streaming services.
+          Every service below is purely advisory and educational. ConnectCore Solutions does not sell, install, or directly supply any internet, cable, or streaming service.
         </p>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -6,18 +6,18 @@ import {
 } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Are you an official cable or internet service provider?", a: "No. We are an independent third-party assistance platform. CONNECTCORE SOLUTIONS does not sell, install, or provide any internet, cable, or streaming services, and we have no official standing with any provider." },
-  { q: "Do you sell internet, cable, or streaming plans?", a: "No. We do not sell, resell, or bundle any internet, cable, or streaming plans. Our role is strictly limited to providing independent informational guidance and assistance." },
-  { q: "Are you affiliated with any cable or internet company?", a: "No. We are not affiliated with, authorized by, endorsed by, or sponsored by any internet, broadband, cable TV, or streaming provider. All trademarks belong to their respective owners and are referenced for informational purposes only." },
-  { q: "Do you charge for your services?", a: "Yes. Service fees apply separately for our assistance. Our charges are entirely independent of and unrelated to any service provider fees. Please contact us for details." },
-  { q: "Will I still be billed by my service provider?", a: "Yes. Your existing service provider billing remains completely unchanged. Our assistance fee is a separate, independent charge for the guidance we provide and has no impact on your provider's invoices." },
-  { q: "Do you need my account passwords or sensitive information?", a: "No. We never request passwords, login credentials, Social Security numbers, or sensitive financial information. We provide general informational guidance only and have no need for account access." },
-  { q: "Which providers do you support?", a: "We may reference multiple providers for general informational guidance purposes only. We have no affiliation, authorization, or partnership with any provider. Any provider names mentioned are used strictly for reference." },
-  { q: "What services do you provide?", a: "We provide informational guidance and general assistance related to internet, Wi-Fi, cable TV, and streaming setup questions. Our support is purely advisory and educational in nature." },
-  { q: "Can you guarantee a resolution to my issue?", a: "No. We provide guidance and informational support only. We do not guarantee any specific outcomes, service availability, or resolutions." },
-  { q: "How is my data handled?", a: "We take privacy seriously. We do not store passwords or sensitive financial data. All communication uses secure channels. Please review our Privacy Policy for full details." },
-  { q: "Are your services refundable?", a: "Yes. Refund requests can be submitted within 7 to 15 days of service purchase, depending on the type of assistance provided and whether the service has already been fully delivered. Please review our Refund Policy page for full eligibility details." },
-  { q: "When was CONNECTCORE SOLUTIONS launched?", a: "CONNECTCORE SOLUTIONS is a startup launched in 2026, built to provide independent, unbiased assistance for connectivity-related questions." },
+  { q: "Is ConnectCore Solutions an official cable or internet provider?", a: "No. ConnectCore Solutions is a fully independent advisory service. We do not sell, install, or manage any internet, cable, or streaming service, and we hold no official standing with any provider whatsoever." },
+  { q: "Do you sell or resell internet, cable, or streaming plans?", a: "No. We do not sell, resell, bundle, or promote any connectivity plans. Our sole function is to provide objective, educational advisory support to help consumers make their own informed choices." },
+  { q: "Are you partnered with or endorsed by any service provider?", a: "No. We have zero partnerships, affiliations, endorsements, or sponsorship arrangements with any internet, broadband, cable TV, or streaming company. All brand names are the property of their respective owners and are referenced only for educational context." },
+  { q: "Do you charge for your advisory services?", a: "Yes. Our advisory consultations are provided for a fee, which is quoted and agreed upon before any service is delivered. All charges are entirely independent of any provider fees or bills you may already have." },
+  { q: "Will my existing provider bills change?", a: "No. Your provider billing remains completely unaffected by using our service. The fee you pay ConnectCore Solutions covers our advisory time only and has absolutely no connection to your provider's invoices." },
+  { q: "Will you ever ask for my passwords or financial details?", a: "Never. We do not request passwords, login credentials, Social Security numbers, bank details, or any sensitive personal or financial information. Our advisory work requires none of these and we will never ask for them." },
+  { q: "Which service providers can you advise on?", a: "Our advisors carry general working knowledge of the connectivity landscape and can discuss a broad range of providers in an informational capacity. We have no formal relationship with any of them — our perspective is always that of an independent, unbiased third party." },
+  { q: "What specifically does your advisory service cover?", a: "We cover internet and broadband topics, home Wi-Fi optimisation, cable TV basics, streaming platform overviews, device connectivity, and general billing comprehension. All guidance is educational and advisory in nature." },
+  { q: "Can you guarantee my issue will be resolved?", a: "No. Our role is to advise and educate, not to fix or guarantee outcomes. Service availability, technical resolution, and final decisions all remain with you and, where applicable, your service provider." },
+  { q: "How do you protect the information I share with you?", a: "We take data protection seriously. Sensitive financial data and passwords are never collected or stored. All communications are handled over secure channels. Full details are available in our Privacy Policy." },
+  { q: "What is your refund policy?", a: "Clients may submit a written refund request within 7 to 15 days of the advisory session, depending on the scope of service delivered. Refund eligibility is assessed individually. Full terms are outlined in our Refund Policy page." },
+  { q: "When was ConnectCore Solutions established?", a: "ConnectCore Solutions was established in 2026 as a dedicated independent advisory platform, created to bring transparency and consumer-focused clarity to the often confusing home connectivity market." },
 ];
 
 const FAQSection = () => (
@@ -25,7 +25,7 @@ const FAQSection = () => (
     <div className="container max-w-3xl">
       <div className="text-center mb-12">
         <h2 className="text-3xl lg:text-4xl font-extrabold mb-4">
-          Frequently Asked <span className="text-primary">Questions</span>
+          Questions We Get <span className="text-primary">Asked Most</span>
         </h2>
       </div>
       <Accordion type="single" collapsible className="space-y-3">

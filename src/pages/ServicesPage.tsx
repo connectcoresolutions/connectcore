@@ -10,12 +10,12 @@ import connectivityImg from "@/assets/connectivity.jpg";
 import billingImg from "@/assets/billing-guidance.jpg";
 
 const services = [
-  { img: serviceImg, title: "Internet Setup Guidance", what: "We help you understand the general process of setting up internet connections, including terminology, equipment basics, and common configurations.", dont: "We do not install, configure, or provide internet service." },
-  { img: wifiImg, title: "Wi-Fi Troubleshooting", what: "We guide you through common Wi-Fi issues such as slow speeds, dropped connections, and range limitations with general tips.", dont: "We do not remotely access your devices or guarantee fixes." },
-  { img: deviceImg, title: "Device Connection Help", what: "We provide general guidance on connecting devices like smart TVs, phones, tablets, and laptops to your network.", dont: "We do not provide manufacturer-specific technical support." },
-  { img: streamingImg, title: "Streaming Setup Assistance", what: "We offer informational support on setting up streaming devices and understanding streaming options.", dont: "We do not sell, manage, or provide streaming subscriptions." },
-  { img: connectivityImg, title: "General Connectivity Help", what: "Broad guidance on networking concepts, wiring questions, and connectivity-related concerns.", dont: "We do not perform on-site visits or physical installations." },
-  { img: billingImg, title: "Billing Guidance", what: "Informational help understanding billing concepts, common charges, and general provider billing practices.", dont: "We do not process payments, access your provider accounts, or modify your bills." },
+  { img: serviceImg, title: "Broadband Advisory", what: "We help you decode broadband terminology, compare plan structures, and understand the factors that affect internet performance in your home — without pushing any particular provider.", dont: "We do not install, configure, or supply any internet service or equipment." },
+  { img: wifiImg, title: "Wi-Fi Performance Consulting", what: "Our advisors walk you through proven strategies to strengthen Wi-Fi coverage, reduce dead zones, and address common interference issues affecting your home network.", dont: "We do not remotely access your devices, routers, or network hardware." },
+  { img: deviceImg, title: "Multi-Device Connectivity Guidance", what: "We explain how to get smart TVs, laptops, phones, tablets, and other household devices working seamlessly together on your home network.", dont: "We do not provide device-specific manufacturer technical support." },
+  { img: streamingImg, title: "Streaming Platform Education", what: "We give you a clear, unbiased overview of major streaming services, device compatibility, subscription tiers, and common setup steps to help you make sense of your options.", dont: "We do not sell, activate, or manage any streaming service on your behalf." },
+  { img: connectivityImg, title: "Home Network Consulting", what: "From router placement to mesh systems and Ethernet runs, we advise on the best ways to structure your home network for speed and reliability.", dont: "We do not carry out physical installations or on-site visits." },
+  { img: billingImg, title: "Plan & Billing Clarification", what: "We break down the structure of provider invoices, explain common charges and fees, and help you understand what you are actually paying for each month.", dont: "We do not access provider portals, process payments, or alter your billing in any way." },
 ];
 
 const ServicesPage = () => (
@@ -26,10 +26,10 @@ const ServicesPage = () => (
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-extrabold mb-4">
-            Our <span className="text-primary">Services</span>
+            What We <span className="text-primary">Advise On</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            All services listed below are informational and assistance-based only. CONNECTCORE SOLUTIONS does not sell, provide, or install any internet, cable, or streaming services.
+            Every service below is purely advisory and educational in nature. ConnectCore Solutions does not sell, install, or directly supply any internet, cable, or streaming service.
           </p>
         </div>
 

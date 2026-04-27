@@ -14,33 +14,33 @@ const ContactPage = () => (
       <div className="container max-w-5xl">
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-extrabold mb-4">
-            Contact <span className="text-primary">Us</span>
+            Get in <span className="text-primary">Touch</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Have a question? Reach out to our independent support team. We're here to provide guidance and assistance.
+            Whether you have a quick connectivity question or need a full advisory consultation, our team is ready to help — with clarity, honesty, and zero sales pressure.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <h2 className="font-heading font-bold text-2xl mb-6">Send Us a Message</h2>
+            <h2 className="font-heading font-bold text-2xl mb-6">Send Us Your Question</h2>
             <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
               <div className="grid sm:grid-cols-2 gap-4">
                 <Input placeholder="Full Name" />
                 <Input type="email" placeholder="Email Address" />
               </div>
               <Input placeholder="Phone Number" />
-              <Input placeholder="Subject" />
-              <Textarea placeholder="Describe your question or concern..." rows={5} />
+              <Input placeholder="Topic of your query" />
+              <Textarea placeholder="Tell us about your connectivity question or concern..." rows={5} />
               <p className="text-xs text-muted-foreground">
-                By submitting, you agree to our Terms & Conditions and Privacy Policy. Service fees apply separately.
+                Submitting this form means you accept our Terms & Conditions and Privacy Policy. Advisory fees apply separately for consultations.
               </p>
-              <Button type="submit" size="lg">Submit Request</Button>
+              <Button type="submit" size="lg">Send Message</Button>
             </form>
           </div>
 
           <div className="space-y-8">
-            <h2 className="font-heading font-bold text-2xl mb-6">Get In Touch</h2>
+            <h2 className="font-heading font-bold text-2xl mb-6">Reach Our Team Directly</h2>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="h-12 w-12 rounded-lg bg-accent flex items-center justify-center shrink-0">
@@ -66,14 +66,14 @@ const ContactPage = () => (
                 </div>
                 <div>
                   <h3 className="font-semibold">Office</h3>
-                  <p className="text-muted-foreground">Available remotely across the United States</p>
+                  <p className="text-muted-foreground">Serving clients remotely across the United States</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-accent border border-border rounded-xl p-6">
               <p className="text-xs text-accent-foreground">
-                CONNECTCORE SOLUTIONS is an independent third-party assistance provider. We are not affiliated with any ISP, cable, or streaming company. Service fees apply separately for assistance provided.
+                ConnectCore Solutions is a fully independent advisory service. We are not affiliated with any ISP, cable, or streaming company. Advisory fees apply separately for all consultations provided.
               </p>
             </div>
           </div>

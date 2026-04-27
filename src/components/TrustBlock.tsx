@@ -1,10 +1,10 @@
 import { Rocket, Shield, Eye, Heart } from "lucide-react";
 
 const items = [
-  { icon: Rocket, value: "2026", label: "Year Launched", desc: "A fresh startup built for modern assistance needs." },
-  { icon: Shield, value: "100%", label: "Independent", desc: "No ties to any ISP, cable, or streaming brand." },
-  { icon: Eye, value: "Full", label: "Transparency", desc: "Clear about what we do and what we don't." },
-  { icon: Heart, value: "24/7", label: "User-First", desc: "Your questions and concerns guide our support." },
+  { icon: Rocket, value: "2026", label: "Est. 2026", desc: "Born as a modern advisory platform built specifically for today's connected households." },
+  { icon: Shield, value: "100%", label: "Unaffiliated", desc: "Completely free from agreements with any ISP, cable operator, or streaming platform." },
+  { icon: Eye, value: "Open", label: "Transparent", desc: "We are upfront about every aspect of our service, including what we cannot do." },
+  { icon: Heart, value: "Always", label: "Client-Centred", desc: "Every interaction is tailored to your unique connectivity questions and circumstances." },
 ];
 
 const TrustBlock = () => (

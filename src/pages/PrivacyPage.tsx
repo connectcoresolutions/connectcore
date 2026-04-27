@@ -1,32 +1,32 @@
 import LegalPageLayout, { LegalSection } from "@/components/LegalPageLayout";
 
 const PrivacyPage = () => (
-  <LegalPageLayout title="Privacy Policy" lastUpdated="March 2026">
-    <LegalSection title="Introduction">
-      <p>CONNECTCORE SOLUTIONS ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our independent third-party assistance services.</p>
+  <LegalPageLayout title="Privacy Policy" lastUpdated="April 2026">
+    <LegalSection title="Our Commitment to Your Privacy">
+      <p>ConnectCore Solutions ("we", "our", or "us") values the trust you place in us. This Privacy Policy describes how we collect, use, and protect your personal information when you engage with our independent advisory services.</p>
     </LegalSection>
-    <LegalSection title="Information We Collect">
+    <LegalSection title="What We Collect">
       <ul className="list-disc pl-5 space-y-2">
-        <li>Name and contact information (email, phone number)</li>
-        <li>Details of your inquiry or question</li>
-        <li>Communication records related to assistance provided</li>
+        <li>Your name and contact details (email address and phone number)</li>
+        <li>The subject matter and details of your connectivity query</li>
+        <li>Records of advisory communications we have with you</li>
       </ul>
     </LegalSection>
-    <LegalSection title="Information We Do NOT Collect">
+    <LegalSection title="What We Never Collect">
       <ul className="list-disc pl-5 space-y-2">
-        <li>Passwords or login credentials for any service</li>
-        <li>Sensitive financial data (credit card numbers, bank details)</li>
-        <li>Social Security numbers or government IDs</li>
+        <li>Passwords or login credentials for any platform or service</li>
+        <li>Credit card numbers, bank account details, or other financial data</li>
+        <li>Social Security numbers or government-issued identification</li>
       </ul>
     </LegalSection>
     <LegalSection title="How We Use Your Information">
-      <p>We use collected information solely to provide assistance, respond to inquiries, and improve our services. We do not sell or share your information with third parties for marketing purposes.</p>
+      <p>Information you provide is used exclusively to deliver advisory services, respond to your questions, and improve the quality of our guidance. We do not sell, rent, or share your personal information with third parties for marketing or commercial purposes.</p>
     </LegalSection>
-    <LegalSection title="Data Security">
-      <p>We implement appropriate security measures including HTTPS encryption to protect your data during transmission. However, no method of electronic storage is 100% secure.</p>
+    <LegalSection title="Security Measures">
+      <p>We apply industry-standard security measures, including HTTPS encryption for all data in transit, to safeguard your information. While we take all reasonable precautions, no digital transmission can be guaranteed to be entirely secure.</p>
     </LegalSection>
-    <LegalSection title="Contact Us">
-      <p>For privacy-related questions, contact us at support@connectcoresolutions.com or (866) 867-8680.</p>
+    <LegalSection title="Contact Us About Privacy">
+      <p>If you have any privacy-related questions or requests, please contact us at support@connectcoresolutions.com or by calling (866) 867-8680.</p>
     </LegalSection>
   </LegalPageLayout>
 );

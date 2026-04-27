@@ -1,24 +1,24 @@
 import LegalPageLayout, { LegalSection } from "@/components/LegalPageLayout";
 
 const DisclaimerPage = () => (
-  <LegalPageLayout title="Disclaimer" lastUpdated="March 2026">
-    <LegalSection title="Independent Third-Party Service">
-      <p>CONNECTCORE SOLUTIONS is an independent third-party service assistance provider launched in 2026. We are NOT an internet service provider (ISP), cable TV company, or streaming platform.</p>
+  <LegalPageLayout title="Disclaimer" lastUpdated="April 2026">
+    <LegalSection title="Who We Are">
+      <p>ConnectCore Solutions is an independent, consumer-focused advisory service established in 2026. We are not an internet service provider, cable television operator, or streaming platform, and we do not function as one in any capacity.</p>
     </LegalSection>
-    <LegalSection title="No Affiliation">
-      <p>We are not affiliated with, authorized by, endorsed by, or sponsored by any internet, broadband, cable TV, or streaming service provider. Any brand names, trademarks, or service marks mentioned on this website belong to their respective owners and are used for informational purposes only.</p>
+    <LegalSection title="No Provider Affiliation">
+      <p>ConnectCore Solutions holds no affiliation with, authorisation from, endorsement by, or sponsorship from any internet, broadband, cable TV, or streaming service provider. Any third-party brand names, service marks, or trademarks appearing on this website are the exclusive property of their respective owners and are referenced solely to provide educational context.</p>
     </LegalSection>
-    <LegalSection title="Nature of Services">
-      <p>Our services are strictly informational and advisory. We provide general guidance, troubleshooting tips, and educational information. We do not sell, install, configure, or directly provide any internet, cable, or streaming services.</p>
+    <LegalSection title="Scope of Our Services">
+      <p>All services offered by ConnectCore Solutions are strictly educational and advisory in character. We provide independent guidance, general best-practice information, and consumer-oriented clarity. We do not sell, install, configure, or directly supply any internet, cable TV, or streaming service.</p>
     </LegalSection>
-    <LegalSection title="No Guarantees">
-      <p>We do not guarantee any specific outcomes, service availability, pricing, or resolution of issues. Information provided is based on general knowledge and may not apply to every individual situation.</p>
+    <LegalSection title="No Warranties or Guarantees">
+      <p>ConnectCore Solutions makes no warranties, express or implied, regarding specific outcomes, service availability, technical resolutions, or pricing accuracy. Advisory information is based on general knowledge and may not apply to every individual situation or provider.</p>
     </LegalSection>
-    <LegalSection title="Separate Fees">
-      <p>Our assistance services are provided for a separate fee, which is independent of and unrelated to any charges from service providers. Our fees cover the time and expertise of our independent support team.</p>
+    <LegalSection title="Advisory Fees">
+      <p>Fees for ConnectCore Solutions advisory services are entirely separate from, and unrelated to, any charges levied by service providers. Our fees compensate our advisors for their time and expertise, nothing more.</p>
     </LegalSection>
-    <LegalSection title="User Responsibility">
-      <p>Users are solely responsible for any actions taken based on the guidance and information provided by CONNECTCORE SOLUTIONS. We strongly recommend verifying information independently before making decisions.</p>
+    <LegalSection title="Client Responsibility">
+      <p>Clients are solely responsible for the decisions they make based on the guidance we provide. ConnectCore Solutions strongly encourages clients to verify all relevant information independently before taking any action.</p>
     </LegalSection>
   </LegalPageLayout>
 );

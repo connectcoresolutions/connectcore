@@ -5,10 +5,10 @@ import { ClipboardList, Headphones, BookOpen, ArrowRight, AlertTriangle } from "
 import supportImg from "@/assets/service-support.jpg";
 
 const steps = [
-  { icon: ClipboardList, title: "Submit Your Request", desc: "Contact us via phone, email, or our online contact form. Describe your question or concern in as much detail as possible so we can assist effectively.", color: "bg-primary" },
-  { icon: Headphones, title: "Speak With Our Support Team", desc: "One of our independent support representatives will connect with you to understand your needs. We listen carefully and ask clarifying questions.", color: "bg-foreground" },
-  { icon: BookOpen, title: "Receive Guidance & Assistance", desc: "Based on your query, we provide informational guidance, general troubleshooting tips, and educational resources to help you understand your options.", color: "bg-primary" },
-  { icon: ArrowRight, title: "Take Action Independently", desc: "Using the guidance provided, you make your own informed decisions. We empower you with knowledge — the actions you take are entirely your own.", color: "bg-foreground" },
+  { icon: ClipboardList, title: "Share Your Question", desc: "Reach us by phone, email, or our online contact form. The more context you give about your connectivity query, the better we can tailor our guidance to your exact situation.", color: "bg-primary" },
+  { icon: Headphones, title: "Connect With an Independent Advisor", desc: "One of our knowledgeable, unaffiliated advisors will engage with you directly to understand the full picture. We listen first, and we never follow a provider script.", color: "bg-foreground" },
+  { icon: BookOpen, title: "Receive Clear, Actionable Guidance", desc: "We translate technical jargon and complex service options into plain language, giving you practical insight and educational context to address your connectivity question.", color: "bg-primary" },
+  { icon: ArrowRight, title: "Move Forward with Confidence", desc: "Armed with clear, unbiased information, you are fully empowered to make decisions that suit your needs. Every choice remains yours — we simply ensure you are fully informed.", color: "bg-foreground" },
 ];
 
 const HowItWorksPage = () => (
@@ -22,10 +22,10 @@ const HowItWorksPage = () => (
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl lg:text-5xl font-extrabold mb-4">
-              How It <span className="text-primary">Works</span>
+              Our Advisory <span className="text-primary">Process</span>
             </h1>
             <p className="text-muted-foreground text-lg max-w-lg">
-              Our process is simple, transparent, and designed to get you the guidance you need quickly. No hidden steps, no surprises.
+              Our approach is straightforward, transparent, and built around your needs. No confusing steps, no hidden surprises, just honest guidance from start to finish.
             </p>
           </div>
           <img
@@ -72,10 +72,10 @@ const HowItWorksPage = () => (
               <h3 className="font-heading font-bold text-lg mb-3">Important Disclaimers</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• We do not provide, sell, or install any internet, cable, or streaming services.</li>
-                <li>• We do not guarantee any specific outcomes or resolutions.</li>
-                <li>• Our role is strictly informational and advisory.</li>
-                <li>• Service fees apply separately for the assistance we provide.</li>
-                <li>• We are not affiliated with any service provider.</li>
+                <li>• We do not guarantee specific outcomes, resolutions, or service availability.</li>
+                <li>• Our role is strictly educational and advisory in nature.</li>
+                <li>• Advisory fees are charged separately for the guidance we deliver.</li>
+                <li>• We carry no affiliation with any service provider whatsoever.</li>
               </ul>
             </div>
           </div>

@@ -16,10 +16,10 @@ const TopBar = () => (
       <div className="flex items-center gap-4">
         <span className="hidden md:flex items-center gap-1.5 text-xs opacity-80">
           <Clock className="h-3 w-3" />
-          Mon–Sat: 8AM–10PM EST
+          Mon–Sat: 8AM–10PM ET
         </span>
         <span className="bg-topbar-foreground/15 px-2.5 py-0.5 rounded-full text-xs font-medium">
-          Independent Third-Party Assistance
+          Independent Connectivity Advisors
         </span>
       </div>
     </div>

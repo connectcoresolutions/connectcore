@@ -16,25 +16,25 @@ const AboutSection = () => (
         </div>
         <div className="space-y-6">
           <h2 className="text-3xl lg:text-4xl font-extrabold">
-            About{" "}
-            <span className="text-primary">CONNECTCORE SOLUTIONS</span>
+            Who We Are —{" "}
+            <span className="text-primary">ConnectCore Solutions</span>
           </h2>
           <p className="text-muted-foreground">
-            CONNECTCORE SOLUTIONS is an independent third-party service assistance provider offering general guidance related to internet, broadband, Wi-Fi, and cable TV services.
+            ConnectCore Solutions was founded in 2026 with one purpose: to give everyday consumers a knowledgeable, unbiased resource for navigating the often confusing world of home connectivity. We are not a provider — we are your advisor.
           </p>
           <p className="text-muted-foreground">
-            We assist users by providing informational support, helping them understand service options, and offering general guidance on common connectivity-related concerns.
+            Whether you have questions about broadband plans, Wi-Fi performance, or cable TV options, our team of independent advisors is here to help you make sense of it all — clearly and without any sales agenda.
           </p>
           <p className="text-muted-foreground">
-            We do not provide internet or cable services directly, and we do not represent or partner with any telecom, internet, or cable TV provider. Our focus is transparency, clarity, and responsible service assistance.
+            We hold no partnerships with, and receive no compensation from, any internet, cable, or streaming company. Every recommendation we offer is grounded solely in your best interest.
           </p>
           <div className="bg-accent border border-border rounded-lg p-4">
             <p className="text-xs text-accent-foreground font-medium">
-              CONNECTCORE SOLUTIONS is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
+              ConnectCore Solutions operates entirely independently. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecommunications service provider.
             </p>
           </div>
           <div className="flex flex-wrap gap-3 pt-2">
-            {["General assistance", "Informational support", "No direct services"].map((b) => (
+            {["Objective guidance", "Consumer-first advice", "Zero provider ties"].map((b) => (
               <span key={b} className="bg-accent text-accent-foreground text-xs font-semibold px-3 py-1.5 rounded-full">
                 ✔ {b}
               </span>
