@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <title>CONNECTCORE SOLUTIONS - Independent Internet & Cable Assistance</title>
     <meta name="description" content="CONNECTCORE SOLUTIONS is an independent third-party assistance provider for internet, cable TV, Wi-Fi, and streaming questions. Not an ISP." />
     <meta name="author" content="CONNECTCORE SOLUTIONS" />
@@ -14,22 +16,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
 
-    <!-- GitHub Pages SPA: restore path from query string set by 404.html -->
-    <script>
-      (function(l) {
-        if (l.search[1] === '/') {
-          var decoded = l.search.slice(1).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&');
-          });
-          window.history.replaceState(
-            null, null,
-            l.pathname.slice(0, -1) + decoded[0] +
-            (decoded[1] ? '?' + decoded[1] : '') +
-            l.hash
-          );
-        }
-      }(window.location));
-    </script>
+    <script src="/boot.js"></script>
   </head>
 
   <body>
